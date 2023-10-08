@@ -3,7 +3,6 @@ using EspacioTarea;
 namespace AccesoADatos{ 
 public class AccesoTareas{
 
-    
     public List<Tarea> ObtenerLista(){
         List<Tarea> lista = new List<Tarea>();
         string rutaArchivo = "../Datos/tareas.json";
